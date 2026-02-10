@@ -1,4 +1,4 @@
-from file_line_counter import count_lines
+from file_counter.file_counter import count_lines
 
 def test_empty_file(tmp_path):
     f = tmp_path / "a.txt"
