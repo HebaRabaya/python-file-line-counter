@@ -5,7 +5,6 @@ def count_lines(file_path):
     """
     with open(file_path, "r") as f:
         lines = f.readlines()
-        # إذا الملف فارغ فعليًا
         if len(lines) == 1 and lines[0] == "":
             return 0
         return len(lines)
